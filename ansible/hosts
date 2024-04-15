@@ -1,0 +1,14 @@
+[linux]
+linux-51121.canadacentral.cloudapp.azure.com
+linux-51122.canadacentral.cloudapp.azure.com
+linux-51123.canadacentral.cloudapp.azure.com
+
+[linux:vars]
+ansible_user= shraddha
+ansible_connection = ssh
+
+[os:children]
+linux
+
+
+
